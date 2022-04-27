@@ -1,1 +1,18 @@
+This repository contains two codes
 
+Originally it should contain the data but due to privacy reasons this is not available. Data used for this code is the Agrotech dataset (Matran-Fernandez, Jan 2022)
+The agrotech_py model as a .py file and the Experiment notebook as ipynb file (notebook file) 
+
+The Experiment notebook is where all experiments were carried out on the dataset 
+
+The data needed to run this code is the agrotech dataset as it in in Xlsx format (Matran-Fernandez, Jan 2022)
+
+The notebook is a walkthrough of how the modelling and the predictions were implemented
+
+The agrotech_py.py is the experiment code and can be run in a python installed enviroment 
+Note all libaries required should be installed using !pip intall Libaries such as Xgboost, Lightgbm etc as seen in the first code bock of the code.
+
+
+
+Refrences
+1. Matran-Fernandez, Ana, Agrotech Dataset Explainable machine learning and time series analysis dataset, Jan 2022
