@@ -32,6 +32,12 @@ planting  = pd.read_csv("planting.csv")
 plant  =  pd.read_csv("plants.csv")
 weather = pd.read_csv("weather.csv")
 
+#droping a empty row in the plant data
+plant.drop(["Unnamed: 0"],axis  = 1,inplace  = True)
+flight.drop(["Unnamed: 0"],axis  = 1,inplace  = True)
+planting.drop(["Unnamed: 0"],axis  = 1,inplace  = True)
+weather.drop(["Unnamed: 0"],axis  = 1,inplace  = True)
+
 #Selecting speific coloumns
 plant.columns = ['BatchNumber', 'PlantDate', 'Class', 'FreshWeight(g)',
        'HeadWeight(g)', 'RadialDiameter(mm)', 'PolarDiameter(mm)',
